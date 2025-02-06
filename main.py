@@ -10,3 +10,9 @@ word2 = word[::-1]
 # If they are equal, it's a palindrome  
 # If they are not equal, it's not a palindrome  
 
+while True:
+    if word2==word:
+        print("this word is a palindrome")
+    else:
+        print("this word is not a palindrome")
+
