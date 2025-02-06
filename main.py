@@ -13,6 +13,8 @@ word2 = word[::-1]
 while True:
     if word2==word:
         print("this word is a palindrome")
+        break
     else:
         print("this word is not a palindrome")
+        break
 
